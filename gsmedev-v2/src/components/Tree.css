@@ -1,0 +1,24 @@
+.tree {
+  margin-top: 5px;
+}
+
+.titlerow {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  margin-left: 5px;
+}
+
+.content {
+  will-change: height, transform, opacity;
+  margin-left: 24px;
+  padding-left: 6px;
+
+  max-width: 500px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
